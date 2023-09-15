@@ -23,7 +23,7 @@ class Register extends React.Component {
     }
 
     onSubmitSignIn = () => {
-        fetch('http://localhost:3000/Register',{
+        fetch('https://red-adventurous-chameleon.cyclic.app/Register',{
             method : 'POST',
             headers : {'content-type': 'application/json'},
             body : JSON.stringify({

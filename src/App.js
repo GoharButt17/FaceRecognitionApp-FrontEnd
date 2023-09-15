@@ -118,7 +118,7 @@ class App extends Component {
         .then(response => response.text())
         .then(result => {
           if (result) {
-            fetch ('http://localhost:3000/image', {
+            fetch ('https://red-adventurous-chameleon.cyclic.app/image', {
               method : 'PUT',
               headers : {'content-type': 'application/json'},
               body : JSON.stringify({
