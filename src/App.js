@@ -151,7 +151,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <ParticlesBg className="particles" color="#FFFFFF" num={130} type="cobweb" bg={true} />
+        <ParticlesBg className="particles" color="#FFFFFF" num={50} type="cobweb" bg={true} />
         <Navigation isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange}/>
         { this.state.route === 'home'
           ? <div>
